@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Hotel</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div class="header col-md-12">
+                <div class="a0"></div>
+                <div class="a0"></div>
+                <div class="a0"></div>
+                <div class="a0"></div>
+                <div class="a1 a0"><h1>Header</h1></div>
+                <div class="a0"></div>
+                <div class="a0"></div>
+                <div class="a2 a0"><h1><a href="#about"><i class="fa fa-chevron-circle-down"></i></a></h1></div>
+                <div class="a0"></div>
+
+
+            </div>
+        </div>
+        <div class="nav responsive" id="nav">
+            <div class="container-fluid">
+
+                <a href="#" class="col-sm-12 col-md-2">Start</a>
+                <a href="#about" class="col-sm-12 col-md-2">O nas</a>
+                <a href="#gallery" class="col-sm-12 col-md-2">Galeria</a>
+                <a href="#offers" class="col-sm-12 col-md-2">Oferty</a>
+                <a href="#contact" class="col-sm-12 col-md-2">Kontakt</a>
+                <a href="javascript:void(0)" id="icon" onclick="show()"><i class="fa fa-bars" style="font-size:24px"></i></a>
+
+            </div>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="c1" id="about">
+                    <h1>Jesteśmy najlepszą siecią hoteli w Polsce!</h1>
+                    <p class="col-md-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae dolorem veritatis rerum modi est totam unde atque doloremque autem soluta obcaecati id consequuntur, cum quo eum ipsam commodi qui necessitatibus.
+                    Incidunt perferendis aperiam voluptatibus distinctio? Voluptatem placeat ullam, voluptate pariatur impedit ratione neque perferendis rem dolor dolorum at voluptatibus eos totam non consequatur suscipit itaque est quibusdam repudiandae distinctio dicta.</p>
+                    <img src="img/karpacz.jpg" class="col-md-6" alt="Karpacz" />
+                </div>
+                <div class="c1" id="gallery">
+                    <h1>Galeria</h1>
+                    <div class="slideshow-container col-md-12">
+                        <div class="slide col-md-5">
+                            <img src="img/karpacz1.jpg" alt="1" />
+                            <div class="caption">text</div>
+                        </div>
+                        <div class="slide col-md-5">
+                            <img src="img/karpacz.jpg" alt="2" />
+                            <div class="caption">text</div>
+                        </div>
+                        <div class="slide col-md-5">
+                            <img src="img/karpacz3.jpg" alt="3" />
+                            <div class="caption">text</div>
+                        </div>
+                        <div class="slide col-md-5">
+                            <img src="img/karpacz4.jpg" alt="4" />
+                            <div class="caption">text</div>
+                        </div>
+                        <div class="slide col-md-5">
+                            <img src="img/karpacz4.jpg" alt="5" />
+                            <div class="caption">text</div>
+                        </div>
+                        <div class="slide col-md-5">
+                            <img src="img/karpacz4.jpg" alt="6" />
+                            <div class="caption">text</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="c1" id="offers">
+                    <h1>Nasze Oferty.</h1>
+                    <table>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class ="c1 col-md-12" id="contact">
+                    <h1>Napisz do nas!</h1>
+                    <form>
+                        <div class="left col-md-5">
+                            <input type="text" name="name" placeholder="Imię"/>
+                            <input type="email" name="email" placeholder="Email"/>
+                            <input type="text" name="topic" placeholder="Temat"/>
+                        </div>
+                        <div class="right col-md-5">
+                            <textarea name="messege" placeholder="Twoja wiadomość"></textarea>
+                        </div>
+                        <button>Wyślij</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="footer col-sm-12">Footer</div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+    function show(){
+        x = document.getElementById("nav");
+        if (x.className === "nav"){
+            x.className += " responsive"
+        }
+        else{
+            x.className = "nav"
+        }
+    }   
+
+</script>
+</body>
+</html>
